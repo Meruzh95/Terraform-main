@@ -1,0 +1,4 @@
+resource "aws_key_pair" "devops" {
+  key_name   = "devops"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC4QA6czBqP6xdNZB+hpTX3vRBaUWreXagcSDk+qJoi5M1KSDFZHMmGmm+VBW386h3Ov+e0KYqeGazXVwp/0jOH179fZ20W5lancMO8ZM2zvDBb40vVYlpZqpcTwdXG+b/J8jlfLQ+Hvam4x1Or66lXP1ocS/T3rhYQ4AX62NtKg0kYSgRcc2TOSMegsjXtPM0GZfOVT+W4k40d90wq5YLfmDkh1naocYZLQU3T+gSRp9FUG1QQisQDFvoMjZkw9VwetVqHhBSitl8GJ2xAh0xnRbzNJUALmYpDGaNIK8mqZbdlw6epQENTRh+5ZaqAe/b/vznSiftm9F8Ko/yLGVIl+Qd8TAh8RQ4p82griVFu+khvDch5QqNx0Es/PnB/p+iwmi/Dlil9qO1dw2naENjAkIXYyFNN3vnxXcxeW6cvR4TlHQh6bcWiVzDg6/Su9CPOFrGO4KI/S3zLXkDo8H5V92QyZImYtSu3XJFKXCi0rgkXkDXALQvb0EfEXJIfMA0="
+}
